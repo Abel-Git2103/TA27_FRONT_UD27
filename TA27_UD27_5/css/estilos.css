@@ -1,0 +1,15 @@
+p {
+    margin-bottom: -1%;
+}
+
+ol.españa {
+    list-style-type:lower-alpha;
+}
+
+ol.eeuu {
+    list-style-type:upper-roman;
+}
+
+ol.eeuu span {
+    padding-left: 30px;
+}

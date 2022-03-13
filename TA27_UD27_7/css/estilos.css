@@ -1,0 +1,94 @@
+body {
+  background-image: url(../img/ac.jpg);
+}
+
+div {
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border: solid black 1px;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.modA {
+  background-image: url(../img/back_mantel.jpg);
+}
+
+.modB {
+  background-image: url(../img/back_mantel.jpg);
+  background-clip: content-box;
+}
+
+.modC {
+  background-image: url(../img/back_mantel.jpg);
+  background-size: 100% 100%;
+}
+
+.modD {
+  background-image: url(../img/back_mantel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-origin: content-box;
+  background-color: white;
+}
+
+.modE {
+  background-image: url(../img/dh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modF {
+  background-image: url(../img/dh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  background-color: white;
+}
+
+.modG {
+  background-image: url(../img/dh_2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+}
+
+.modH {
+  background-image: url(../img/dh_3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+}
+
+.modI {
+  background: linear-gradient(to right, #ccff41 0%, #5c7048 100%);
+}
+
+.modJ {
+  background: linear-gradient(
+    to bottom,
+    rgb(209, 159, 140) 0%,
+    rgb(146, 55, 19) 80%,
+    rgb(133, 39, 2) 51%,
+    rgb(175, 98, 68) 100%
+  );
+}
+
+.modK {
+  background: linear-gradient(to top, green 0%, rgba(239, 239, 210, 1) 100%);
+}
+
+.modL {
+  background: linear-gradient(to top, green 0%, rgba(0, 0, 0, 0.192) 100%);
+}

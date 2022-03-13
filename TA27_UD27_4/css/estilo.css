@@ -1,0 +1,30 @@
+body {
+  background-image: url(PINGUINOS.jpg);
+  background-repeat: no-repeat;
+  padding: 190px;
+  background-position: center;
+  background-size: 1000px;
+}
+
+table {
+  background-color: white;
+  margin: auto;
+  margin-top: 300px;
+  width: 700px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-spacing: 2px;
+  border: grey 3px solid;
+  border-style: outset;
+}
+
+th {
+  border: black 1px solid;
+  
+}
+
+td {
+    border: black 1px solid;
+    background-color: rgb(202, 219, 44);
+}

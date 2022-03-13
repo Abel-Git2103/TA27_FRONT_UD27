@@ -1,0 +1,48 @@
+h3 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+table.tabla {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-spacing: 2px;
+  border: grey 3px solid;
+  border-style: outset;
+}
+
+td {
+  border: black 1px solid;
+}
+
+th {
+  border: black 1px solid;
+}
+
+th.celda1 {
+  height: 5vh;
+  background-color: rgb(168, 243, 168);
+}
+
+td.celda2 {
+  text-align: left;
+  background-color: rgb(0, 247, 255);
+}
+
+td.celda6 {
+  background-color: rgb(250, 94, 211);
+  
+}
+
+td.celda6 span {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+
+#valor {
+  color: red;
+}
